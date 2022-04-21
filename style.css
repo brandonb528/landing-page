@@ -44,6 +44,11 @@ img {
     color: #F9FAF8
 }
 
+.quote-font {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
 .secondary-font {
     font-size: 18px;
     color: #e5e7eb;
@@ -119,4 +124,71 @@ p.biggest-font {
     text-align: center;
     justify-content: center;
     margin-left: 45px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote {
+    width: 50%;
+    margin-top: 20px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 0;
+}
+
+.quote-source {
+    align-self: flex-end;
+    margin-right: 20%;
+}
+
+.bottom-sign-up-section {
+    overflow: hidden;
+    align-items: center;
+    height: 300px;
+}
+
+.info {
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.info > p.secondary-font {
+    margin-top: 0;
+}
+
+.info > p.header-font {
+    margin-bottom: 0;
+}
+
+.sign-up-container {
+    margin: auto;
+    background-color: #3882f6;
+    border-radius: .5em;
+    width: 70%;
+    height: 150px;
+}
+
+.button {
+    border: #fff solid 2px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+
+.align-right {
+    margin-left: auto;
+    padding-right: 20%;
+}
+
+.footer {
+    background-color: #1f2937;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
 }
